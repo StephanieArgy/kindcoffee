@@ -45,6 +45,19 @@ main {
   margin-bottom: 100px;
 }
 
+.openingImage {
+  border: 2px solid rgba(211, 230, 255, .95); 
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .4);
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  max-width: 80%;
+}
+
+.openingImageLargeScreens {
+  display: none;
+}
+
 .cartMenuLists {
   display: flex;
   flex-direction: column;  
@@ -97,6 +110,16 @@ main {
     margin-top: 0;
   }
   
+  .openingImageSmallScreens {
+    display: none;
+  }
+  
+  .openingImageLargeScreens {
+    display: block;
+    max-width: 95%;
+  }
+
+  
   h2 {
     font-size: 3rem;
   }
@@ -113,6 +136,7 @@ main {
 .cartMenuLists {
   flex-direction: row;
 }
+
 
 
 }
