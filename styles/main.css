@@ -1,0 +1,113 @@
+body {
+  background-image: url(../images/BG_TempTile.jpg);
+  background-color: #005830;
+  border: 5px double rgba(224, 189, 0, .3);
+  color: rgba(211, 230, 255, .95);
+  /*  font-family: 'Merienda', cursive;*/
+  font-family: 'Walter Turncoat', cursive;
+  font-variant: small-caps;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 15px;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.kindLogo {
+  display: block;
+  margin: auto;
+  max-height: 75%;
+  max-width: 75%;
+}
+
+.cartInfo {
+  color: #2d96ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.cartInfo p:first-of-type {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.cartHours {
+  margin: 0;
+}
+
+main {
+  margin-bottom: 100px;
+}
+
+.cartMenuLists {
+  display: flex;
+  flex-direction: column;  
+}
+
+.menuHeading {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.menuList {
+  list-style: none;
+  padding: 0;
+}
+
+.menuItem {
+  font-size: 1.4rem;
+  padding-bottom: .8rem;
+}
+
+.menuItem a {
+  color: rgba(211, 230, 255, .95);
+  text-decoration: none;
+}
+
+.menuDescription {
+  font-size: .9rem;
+  list-style: none;
+  padding-left: 2rem;
+}
+
+.UmbriaLogo{
+  display: block;
+  max-width: 50px;
+  opacity: .7;
+}
+
+
+/*****************************************************************************************/
+/*LARGER SCREENS*/
+
+@media (min-width: 800px) {
+  
+  .kindLogo {
+    margin-top: 0;
+  }
+  
+  h2 {
+    font-size: 3rem;
+  }
+  
+  .cartInfo {
+    font-size: 1.3rem;
+  }
+  
+  .cartSubMenu {
+    width: 35%;
+    margin-right: 5%;
+  }
+  
+.cartMenuLists {
+  flex-direction: row;
+}
+
+
+}
