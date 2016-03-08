@@ -76,6 +76,11 @@ main {
   padding-left: 2rem;
 }
 
+.cannoli {
+  border: 2px solid rgba(211, 230, 255, .95); 
+  padding: 5%;
+}
+
 .UmbriaLogo{
   display: block;
   max-width: 50px;
